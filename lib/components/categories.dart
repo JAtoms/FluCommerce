@@ -21,7 +21,7 @@ class _CategoriesState extends State<Categories> {
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: const EdgeInsets.symmetric(horizontal: kDefaultPadding),
+      padding: const EdgeInsets.symmetric(vertical: 30),
       child: SizedBox(
         height: 25,
         child: ListView.builder(
@@ -35,33 +35,32 @@ class _CategoriesState extends State<Categories> {
 
   Widget buildCategory(int index) {
     return GestureDetector(
-      onTap: (){
+      onTap: () {
         setState(() {
           selectedIndex = index;
         });
       },
       child: Padding(
-          padding: const EdgeInsets.only(right: kDefaultPadding),
-          child: Column(
-            crossAxisAlignment: CrossAxisAlignment.start,
-            children: [
-              Text(
-                categories[index],
-                style: TextStyle(
-                    fontWeight: selectedIndex == index ? FontWeight.bold : null,
-                    color: kTextColor,
-                    fontSize: 18),
-              ),
-              Container(
-                margin: EdgeInsets.only(top: 4),
-                height: 2,
-                width: 30,
-                color:
-                    selectedIndex == index ? Colors.black : Colors.transparent,
-              )
-            ],
-          ),
+        padding: const EdgeInsets.only(right: 28),
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            Text(
+              categories[index],
+              style: TextStyle(
+                  fontWeight: selectedIndex == index ? FontWeight.bold : null,
+                  color: kTextColor,
+                  fontSize: 18),
+            ),
+            Container(
+              margin: EdgeInsets.only(top: 4),
+              height: 2,
+              width: 30,
+              color: selectedIndex == index ? Colors.black : Colors.transparent,
+            )
+          ],
         ),
+      ),
     );
   }
 }
