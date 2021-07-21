@@ -6,10 +6,9 @@ and an animated detail page of a selected item.
 
 ## Screenshots
 <ul>
-  <img src="https://github.com/JAtoms/binarySearch_visualization/blob/main/screenshot/Screenshots%20(2).jpg" width="40%" alt="Screen1" hspace="15">
-  <img src="https://github.com/JAtoms/binarySearch_visualization/blob/main/screenshot/Screenshots%20(1).jpg" width="40%" alt="Screen2" hspace="15">
-  <img src="https://github.com/JAtoms/binarySearch_visualization/blob/main/screenshot/Screenshots%20(3).jpg" width="40%" alt="Screen3" hspace="15">
-  <img src="https://github.com/JAtoms/binarySearch_visualization/blob/main/screenshot/Screenshots%20(5).jpg" width="40%" alt="Screen4" hspace="15">
+  <img src="https://github.com/JAtoms/FluCommerce/blob/main/media_resources/screenshot_1.jpg" width="40%" alt="Screen1" hspace="15">
+  <img src="https://github.com/JAtoms/FluCommerce/blob/main/media_resources/screenshot_2.jpg" width="40%" alt="Screen1" hspace="15">
+  <img src="https://github.com/JAtoms/FluCommerce/blob/main/media_resources/screenshot_3.jpg" width="40%" alt="Screen1" hspace="15">
 </ul>
 
 ## Author
