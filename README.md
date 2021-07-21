@@ -9,10 +9,11 @@ and an animated detail page of a selected item.
   <img src="https://github.com/JAtoms/FluCommerce/blob/main/media_resources/screenshot_1.jpg" width="40%" alt="Screen1" hspace="15">
   <img src="https://github.com/JAtoms/FluCommerce/blob/main/media_resources/screenshot_2.jpg" width="40%" alt="Screen1" hspace="15">
   <img src="https://github.com/JAtoms/FluCommerce/blob/main/media_resources/screenshot_3.jpg" width="40%" alt="Screen1" hspace="15">
+  [![Watch the video](https://github.com/JAtoms/FluCommerce/blob/main/media_resources/screenshot_1.jpg)](https://github.com/JAtoms/FluCommerce/blob/main/media_resources/video_record.mp4)
 </ul>
 
 ## Watch the video
-[![Watch the video](https://github.com/JAtoms/FluCommerce/blob/main/media_resources/screenshot_1.jpg)](https://github.com/JAtoms/FluCommerce/blob/main/media_resources/video_record.mp4)
+
 
 ## Author
 
