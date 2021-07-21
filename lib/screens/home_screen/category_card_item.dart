@@ -24,7 +24,9 @@ class CardItem extends StatelessWidget {
               color: products.color,
               borderRadius: BorderRadius.circular(16),
             ),
-            child: Image.asset(products.image),
+            child: Hero(
+              tag: products.id,
+                child: Image.asset(products.image)),
           ),
           Padding(
             padding: EdgeInsets.only(top: 6, bottom: 1),

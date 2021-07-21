@@ -50,9 +50,12 @@ class ProductTitleWithImage extends StatelessWidget {
                 width: kDefaultPadding,
               ),
               Expanded(
-                  child: Image.asset(
-                    products.image,
-                    fit: BoxFit.fill,
+                  child: Hero(
+                    tag: products.id,
+                    child: Image.asset(
+                      products.image,
+                      fit: BoxFit.fill,
+                    ),
                   ))
             ],
           )
