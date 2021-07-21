@@ -1,13 +1,14 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:voice_radio/components/card_item.dart';
-import 'package:voice_radio/components/categories.dart';
+import 'package:voice_radio/screens/home_screen/category_card_item.dart';
+import 'package:voice_radio/screens/home_screen/categories.dart';
 import 'package:voice_radio/constants/constants.dart';
-import 'package:voice_radio/models/products.dart';
 import 'package:voice_radio/models/products_database.dart';
 
-class Body extends StatelessWidget {
-  const Body({Key? key}) : super(key: key);
+import '../detail_screen/detail_screen.dart';
+
+class HomeScreenBody extends StatelessWidget {
+  const HomeScreenBody({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -33,7 +34,16 @@ class Body extends StatelessWidget {
                 itemBuilder: (context, index) {
                   return CardItem(
                     products: products[index],
-                    onPress: () {},
+                    onPress: () {
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                          builder: (context) => DetailScreen(
+                            products: products[index],
+                          ),
+                        ),
+                      );
+                    },
                   );
                 }),
           )
@@ -42,5 +52,3 @@ class Body extends StatelessWidget {
     );
   }
 }
-
-

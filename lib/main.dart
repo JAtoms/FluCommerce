@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:voice_radio/constants/constants.dart';
-import 'package:voice_radio/screens/home_screen.dart';
+import 'package:voice_radio/screens/home_screen/home_screen.dart';
 
 void main() {
   SystemChrome.setSystemUIOverlayStyle(
