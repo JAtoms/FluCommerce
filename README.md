@@ -1,9 +1,11 @@
-## FluCommerce
-
 
 ## Author
 
 [Joshua Atoms](https://github.com/JAtoms)
+
+
+
+## FluCommerce
 
 FluCommerce is a Flutter eCommerce which shows market place for items
 and an animated detail page of a selected item.
